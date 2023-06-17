@@ -56,18 +56,6 @@ pip install -r requirements.txt
 ```
 python run.py -i mylib/videos/test.mp4
 ```
-- To run inference on an IP camera, Setup your camera url in 'mylib/config.py':
-
-```
-# Enter the ip camera url (e.g., url = 'http://191.138.0.100:8040/video')
-url = ''
-```
-- Then run with the command:
-
-```
-python run.py
-```
-> Set url = 0 for webcam.
 
 ## References
 ***Main:***
